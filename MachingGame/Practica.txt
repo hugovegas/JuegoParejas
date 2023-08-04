@@ -1,0 +1,59 @@
+﻿Enunciado:
+
+Juego de formar parejas en el que el usuario que juegue formará parejas de iconos ocultos.
+
+Aprendizaje:
+
+* Almacenar objetos, como iconos, en un objeto List<T>.
+* Use un bucle de foreach en C# o un bucle de For Each en Visual Basic para recorrer en iteración los elementos de una lista.
+* Realizar un seguimiento del estado de un formulario mediante variables de referencia.
+* Crear un controlador de eventos que responda a eventos que se puedan usar con varios objetos.
+* Crear un temporizador para la cuenta atrás y desencadenar un evento una y solo una vez después de iniciarse.
+
+Parte 1:
+
+* Crear un proyecto de Visual Studio que utiliza Windows Forms
+* Agregar un elemento de diseño y darle formato
+* Agregar etiquetas para mostrar y darles formato
+
+Parte 2:
+
+* Agregar un objeto aleatorio y una lista de iconos
+* Asignar un icono aleatorio a cada etiqueta
+* Agregar controladores de eventos que muestren iconos a las etiquetas
+
+Parte 3:
+
+* Agregar referencias de etiqueta.
+* Agregar un temporizador.
+
+Parte 4:
+
+* Mantener visibles los pares
+* Comprobar si un jugador ganó
+
+
+-----------------------------------------------
+
+Puede agregar más características al juego para que sea más complicado e interesante. Estas son algunas opciones.
+
+* Reemplace los iconos y colores con los que prefiera.
+
+Observe la propiedad ForeColor de la etiqueta.
+
+* Agregue un temporizador de juego que mida el tiempo que necesita el jugador para ganar.
+
+Puede agregar una etiqueta para mostrar el tiempo transcurrido en el formulario. Colóquela sobre TableLayoutPanel. Agregue otro temporizador al formulario para realizar un seguimiento del tiempo. Utilice el código para iniciar el temporizador cuando el jugador inicie el juego, y detenga el temporizador después de que coincidan los dos iconos.
+
+* Agregue un sonido para cuando el jugador encuentre una coincidencia, otro sonido para cuando destape dos iconos que no coincidan y un tercer sonido para cuando el programa vuelva a ocultar los iconos.
+
+Para reproducir sonido, use el espacio de nombres System.Media. Para más información, vea los vídeos Play sounds in Windows Forms app (C#) (Reproducir sonidos en la aplicación de Windows Forms [C#]) o How to play audio in Visual Basic (Cómo reproducir audio en Visual Basic).
+
+* Aumente el tamaño del tablero para complicar más el juego.
+
+No basta con solo agregar filas y columnas a TableLayoutPanel. También debe tener en cuenta el número de iconos que crea.
+
+* Para que el juego sea más complicado, oculte el primer icono si el jugador es demasiado lento para responder.
+
+
+-----------------------------------------------------
